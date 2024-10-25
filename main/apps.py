@@ -6,6 +6,5 @@ class MainConfig(AppConfig):
     name = "main"
 
     def ready(self):
-        # from main.scheduler import start
-        # start()
-        pass
+        from main.scheduler import start
+        start()
